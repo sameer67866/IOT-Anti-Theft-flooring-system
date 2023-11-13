@@ -20,4 +20,4 @@ def read_piezo():
 # Read the sensor value every second
 while True:
     read_piezo()
-    time.sleep(1)
+    time.sleep(2)
