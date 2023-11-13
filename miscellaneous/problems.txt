@@ -1,2 +1,5 @@
 PROBLEMS WE FACED:
 
+GPIO pins were wired to a sensor while Raspberry Pi was on, causing Pi to fail to read any SD cards. Fixed by replacing Pi.
+
+pip3 command was returning the error: externally managed environment. Fixed by deleting the file "/usr/lib/python3.11/EXTERNALLY-MANAGED"
