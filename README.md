@@ -44,8 +44,7 @@ Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry 
 * Professor - Dr. Haoxin Wang
 
 ## Pi Setup
+
 ```bash
-{
 raspi-config
-}
 ```
