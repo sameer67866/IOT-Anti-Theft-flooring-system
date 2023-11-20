@@ -1,6 +1,6 @@
 # IOT Anti-Theft Flooring System 
 
-Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry Pi to implement a Anti-Theft Flooring System over a CoAP server.
+Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry Pi to implement an Anti-Theft Flooring System over a CoAP server.
 
 ## Objective
 
@@ -27,7 +27,7 @@ Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry 
 
 * [CoAPthon](https://github.com/Tanganelli/CoAPthon) - CoAP python library
 * [PiCamera](https://picamera.readthedocs.io/en/release-1.13/) - For camera module Interfacing 
-* [SimpleCV](http://simplecv.org/) - For image math and comparison
+* [Adafruit CircuitPython ADS1115](https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15) - For interfacing with ADS chip
 
 ## Demonstration
 [![Link](https://i.gyazo.com/b10ca03759024acad1e69eb6c167c56c.png)](https://www.youtube.com/watch?v=uYGOCEKzvzU&feature=youtu.be)
