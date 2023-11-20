@@ -44,12 +44,12 @@ Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry 
 * Professor - Dr. Haoxin Wang
 
 ## Pi Setup
-#To run pip3 commands:
+# To run pip3 commands:
 ```bash
 sudo apt-get install python3-pip
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```
-#To install Adafruit CircuitPython ADS library:
+# To install Adafruit CircuitPython ADS library:
 ```bash
 pip3 install adafruit-circuitpython-ads1x15
 ```
