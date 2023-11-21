@@ -1,14 +1,13 @@
 # IOT Anti-Theft Flooring System 
 
-Project for CSC 4980 - Security in IOT (Fall'23). This project uses a Raspberry Pi to implement an Anti-Theft Flooring System over a CoAP server.
+Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry Pi to implement an Anti-Theft Flooring System over a CoAP server.
 
 ## Objective
 
 - Developing a Theft Detection System IoT application
-- Implementing multiple detection modes
+- Use analog sensor input to trigger camera activation and server response 
 - Knowledge on Raspberry Libraries for proper resource/sensor implementation
-- Interfacing Raspberry Buzzer Sensor and Camera Module over CoAP
-- Invoking SimpleCV in order to analyze images 
+- Interfacing Servo Motor and Camera Module over CoAP
 
 
 ## Schematics
@@ -53,6 +52,17 @@ sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```bash
 pip3 install adafruit-circuitpython-ads1x15
 ```
+### To enable I2C on Pi
 ```bash
 raspi-config
+```
+Select Interfacing Options > I2C.
+
+Select Yes when prompted to enable the I2C interface.
+
+Select Yes when prompted to automatically load the I2C kernel module.
+
+Select Finish.
+```bash
+sudo reboot
 ```
