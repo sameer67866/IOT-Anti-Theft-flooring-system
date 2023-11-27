@@ -1,9 +1,15 @@
-from time import sleep
-from picamera import PiCamera
+import time
+from picamera2 import Picamera2, Preview
 
-camera = PiCamera()
-camera.resolution = (1024, 768)
-camera.start_preview()
-# Camera warm-up time
-sleep(2)
-camera.capture('foo.jpg')
+picam = Picamera2()
+
+config = picam.create_preview_configuration()
+picam.configure(config)
+
+picam.start_preview(Preview.QTGL)
+
+picam.start()
+time.sleep(2)
+picam.capture_file("test-python.jpg")
+
+picam.close()
