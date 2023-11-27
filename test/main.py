@@ -15,7 +15,7 @@ def main():
     end_time = time.time() + warmup_time
     while time.time() < end_time:
         piezo_sensor.read_sensors()  # Read sensors to let them stabilize
-        time.sleep(0.1)  # Sleep a bit between readings
+       # time.sleep(0.1)  # Sleep a bit between readings
 
     print("Sensors stabilized, starting motion detection.")
 
