@@ -31,4 +31,4 @@ while True:
     print(f"Tile 1 - Average Sensor Value: {avg_value_1}, Average Voltage: {avg_voltage_1:.2f}V")
     print(f"Tile 2 - Average Sensor Value: {avg_value_2}, Average Voltage: {avg_voltage_2:.2f}V")
 
-    time.sleep(2)
+    time.sleep(1)

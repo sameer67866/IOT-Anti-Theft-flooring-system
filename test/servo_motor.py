@@ -6,8 +6,8 @@ class ServoMotor:
         # Set up the GPIO mode
         GPIO.setmode(GPIO.BCM)
 
-        # Set GPIO 17 as output and set PWM signal
-        self.servoPin = 17
+        # Set GPIO 23 as output and set PWM signal
+        self.servoPin = 23
         GPIO.setup(self.servoPin, GPIO.OUT)
 
         # Set frequency to 50Hz
