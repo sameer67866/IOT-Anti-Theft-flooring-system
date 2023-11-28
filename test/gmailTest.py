@@ -1,18 +1,18 @@
+from email.message import EmailMessage
 import smtplib
 
-smtp_server = 'smtp.gmail.com'
-smtp_port = 587
-smtp_username = 'cyber.talha0@gmail.com'
-smtp_password = 'Spike90122pro1'
+recipient = "musabtree@hotmail.com"
+sender = "cyber.talha0@gmail.com"
+message = "Hello world!"
 
-from_email = 'cyber.talha0@gmail.com'
-to_email = 'musabtree@hotmail.com'
-subject = 'Hello World!'
-body = 'This is a test email.'
+email = EmailMessage()
+email["From"] = sender
+email["To"] = recipient
+email["Subject"] = "Test Email"
+email.set_content(message)
 
-message = f'Subject: {subject}\n\n{body}'
-
-with smtplib.SMTP(smtp_server, smtp_port) as smtp:
-    smtp.starttls()
-    smtp.login(smtp_username, smtp_password)
-    smtp.sendmail(from_email, to_email, message)
+smtp = smtplib.SMTP("smtp.gmail.com", port=587)
+smtp.starttls()
+smtp.login(sender, "Spike90122pro1")
+smtp.sendmail(sender, recipient, email.as_string())
+smtp.quit()
