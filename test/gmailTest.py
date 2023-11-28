@@ -13,6 +13,6 @@ email.set_content(message)
 
 smtp = smtplib.SMTP("smtp.gmail.com", port=587)
 smtp.starttls()
-smtp.login(sender, "Spike90122pro1")
+smtp.login(sender, "qlyk rwjf lvhj nnql")
 smtp.sendmail(sender, recipient, email.as_string())
 smtp.quit()
