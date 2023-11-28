@@ -1,8 +1,10 @@
 import sensor
 import servo_motor
 import time
-# import camera
-# import coap_communication
+from camra import take_picture  # Import the take_picture function
+from gmailtest import send_email_with_filename  # Import the email sending function
+
+
 def main():
     piezo_sensor = sensor.PiezoSensor()
     current_servo_angle = 45  # Starting angle
@@ -29,12 +31,21 @@ def main():
         # Check if there's a significant change in pressure on either tile
         if abs(readings_1[0] - last_reading_1[0]) > 5000:  # Tile 1
             if (current_servo_angle !=70):
-                 current_servo_angle = 70  # Move 30 degrees to the left
-                 servo.set_angle(current_servo_angle)
+                current_servo_angle = 70  # Move 30 degrees to the left
+                servo.set_angle(current_servo_angle)
+                filename = take_picture()  # Take picture and get filename
+                print(f"Picture taken: {filename}")
+                filename = take_picture()  # Take another picture and get filename
+                send_email_with_filename(filename)  # Send email with filename
+
         elif abs(readings_2[0] - last_reading_2[0]) > 5000:  # Tile 2
             if (current_servo_angle != 20):
             	current_servo_angle = 20  # Move 30 degrees to the right
-            	servo.set_angle(current_servo_angle)
+                servo.set_angle(current_servo_angle)
+                filename = take_picture()  # Take picture and get filename
+                print(f"Picture taken: {filename}")
+                filename = take_picture()  # Take another picture and get filename
+                send_email_with_filename(filename)  # Send email with filename
 
         # Update last readings
         last_reading_1, last_reading_2 = readings_1, readings_2
