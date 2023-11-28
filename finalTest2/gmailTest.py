@@ -5,13 +5,13 @@ import smtplib
 import os
 
 # Hardcode the directory path
-directory_path = "/Downloads/IOT-Anti-Theft-flooring-system/finalTest2"
+directory_path = "/home/admin/Downloads/IOT-Anti-Theft-flooring-system/finalTest2"
 
 def send_email_with_filename(filename):
     recipient = "musabtree@hotmail.com"
     sender = "cyber.talha0@gmail.com"
     subject = "Test Email with Image"
-    text = "Hello world, this is an email with an image!"
+    text = "ALERT!!!!! A Movement has been detected inside your home, here is an image!"
 
     # Create a multipart message
     message = MIMEMultipart()
