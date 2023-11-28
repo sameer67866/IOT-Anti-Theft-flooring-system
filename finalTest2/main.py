@@ -19,9 +19,9 @@ def main():
 		piezo_sensor.read_sensors()  # Read sensors to let them stabilize
        		# time.sleep(0.1)  # Sleep a bit between readings
 
-		print("Sensors stabilized, starting motion detection.")
+	print("Sensors stabilized, starting motion detection.")
 
-		last_reading_1, last_reading_2 = piezo_sensor.read_sensors()  # Initialize last readings
+	last_reading_1, last_reading_2 = piezo_sensor.read_sensors()  # Initialize last readings
 
 	while True:
 		readings_1, readings_2 = piezo_sensor.read_sensors()
@@ -52,4 +52,4 @@ def main():
         #add implementations of COAP and Camra
 
 if __name__ == "__main__":
-    main()
+	main()
