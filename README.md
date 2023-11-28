@@ -12,7 +12,7 @@ Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry
 
 ## Schematics
 
-![Circuit image](https://github.com/sameer67866/IOT-Anti-Theft-flooring-system/blob/main/IOT circuit image.jpg?raw=true)
+![Circuit image](https://github.com/sameer67866/IOT-Anti-Theft-flooring-system/blob/main/IOTCircuitImage.jpg?raw=true)
 
 ## Raspberry Pi Modules Used
 
