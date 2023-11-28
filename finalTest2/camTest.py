@@ -15,3 +15,11 @@ def take_picture():
     picam.capture_file(filename)
     picam.close()
     return filename
+
+def test_take_picture():
+    print("Taking a picture...")
+    filename = take_picture()
+    print(f"Picture taken and saved as: {filename}")
+
+# Call the test function
+test_take_picture()
