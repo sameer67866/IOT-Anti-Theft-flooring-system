@@ -14,6 +14,10 @@ Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry
 
 ![Circuit image](https://github.com/sameer67866/IOT-Anti-Theft-flooring-system/blob/main/IOTImplementation.jpg?raw=true)
 
+-link to presentation : https://1drv.ms/p/s!Aike8jU30iDOgZZKH180BO12HymP0g?e=jNXHjP
+-link to Demo Video : https://drive.google.com/file/d/1ySCxcmnDBW4AQXz50BMR1iuclCvnnUgW/view?usp=sharing
+-link to project poster : https://docs.google.com/presentation/d/1p_RyZlE7ew_euwt0hkcAPQ_A-vDhHCEu/edit?usp=sharing&ouid=106989836719408766777&rtpof=true&sd=true
+
 ## Schematics
 
 ![Circuit image](https://github.com/sameer67866/IOT-Anti-Theft-flooring-system/blob/main/IOTCircuitImage.jpg?raw=true)
