@@ -14,9 +14,6 @@ Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry
 
 ![Circuit image](https://github.com/sameer67866/IOT-Anti-Theft-flooring-system/blob/main/IOTImplementation.jpg?raw=true)
 
--link to presentation : https://1drv.ms/p/s!Aike8jU30iDOgZZKH180BO12HymP0g?e=jNXHjP
--link to Demo Video : https://drive.google.com/file/d/1ySCxcmnDBW4AQXz50BMR1iuclCvnnUgW/view?usp=sharing
--link to project poster : https://docs.google.com/presentation/d/1p_RyZlE7ew_euwt0hkcAPQ_A-vDhHCEu/edit?usp=sharing&ouid=106989836719408766777&rtpof=true&sd=true
 
 ## Schematics
 
@@ -32,12 +29,15 @@ Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry
 
 ## Built With
 
-* [CoAPthon](https://github.com/Tanganelli/CoAPthon) - CoAP python library
-* [PiCamera](https://picamera.readthedocs.io/en/release-1.13/) - For camera module Interfacing 
+* [Smptlib](https://docs.python.org/3/library/smtplib.html) - SMTP protocol client for sending email alerts
+* [Picamera2](https://github.com/raspberrypi/picamera2) - For camera module Interfacing 
 * [Adafruit CircuitPython ADS1115](https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15) - For interfacing with ADS chip
 
 ## Demonstration
-[![Link](https://i.gyazo.com/b10ca03759024acad1e69eb6c167c56c.png)](https://www.youtube.com/watch?v=uYGOCEKzvzU&feature=youtu.be)
+
+* [Demo video](https://drive.google.com/file/d/1ySCxcmnDBW4AQXz50BMR1iuclCvnnUgW/view?usp=sharing)
+* [Presentation](https://1drv.ms/p/s!Aike8jU30iDOgZZKH180BO12HymP0g?e=jNXHjP)
+* [Project poster](https://docs.google.com/presentation/d/1p_RyZlE7ew_euwt0hkcAPQ_A-vDhHCEu/edit?usp=sharing&ouid=106989836719408766777&rtpof=true&sd=)
 
 ## Authors
 
