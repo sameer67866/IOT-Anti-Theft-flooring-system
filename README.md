@@ -5,9 +5,8 @@ Project for CSC 4980 - Security in IOT (Fall '23). This project uses a Raspberry
 ## Objective
 
 - Developing a Theft Detection System IoT application
-- Use analog sensor input to trigger camera activation and server response 
+- Use analog sensor input to trigger camera activation and send alert  
 - Knowledge on Raspberry Libraries for proper resource/sensor implementation
-- Interfacing Servo Motor and Camera Module over CoAP
 
 
 ## Implementation
