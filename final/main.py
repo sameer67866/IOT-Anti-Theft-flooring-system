@@ -1,8 +1,8 @@
 import sensor
 import servo_motor
 import time
-from camTest import take_picture  # Import the take_picture function
-from gmailTest import send_email_with_filename  # Import the email sending function
+from camera import take_picture  # Import the take_picture function
+from sendGmailAlert import send_email_with_filename  # Import the email sending function
 
 
 def main():
